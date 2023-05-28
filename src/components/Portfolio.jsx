@@ -18,7 +18,7 @@ function Portfolio() {
         </div>
             {projectDetails.map(({id,name,src,codeWebsite,demoSite,description}) => (
                 <div key={id} className='flex flex-col justify-center items-center
-                mx-auto md:flex-row h-screen md:h-[75vh]'>
+                mx-auto md:flex-row h-[90vh] md:h-[75vh]'>
                     <div className='px-10 md:px-3 md:w-1/2'>
                         <img className='rounded-md' src={src} alt='arrayDestruct' />
                     </div>
